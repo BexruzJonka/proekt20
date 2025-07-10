@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-shadow: 1px 1px 2px #fff;
+  }
+  
+  .logo {
+    font-size: 30px;
+  }
+  
+  .position-demo h2,
+  .info-section h2 {
+    background: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 28px;
+  }
+  
+  .position-box {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 60px;
+    margin-top: 40px;
+  }
+  
+  .relative-box {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: lime;
+    border-radius: 10px;
+    box-shadow: 0 0 20px lime;
+    text-align: center;
+    line-height: 120px;
+  }
+  
+  .circle {
+    border-radius: 60px;
+  }
+  
+  .absolute-box {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 120px;
+    height: 80px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    line-height: 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px red;
+  }
+  
+  .info-section {
+    margin-top: 60px;
+  }
+  
+  .info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .info-card {
+    background: #822;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 20px #444;
+  }
+  
+  .info-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+  

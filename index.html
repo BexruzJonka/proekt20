@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Types</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">🎯</div>
+    <nav>
+      <a href="#">static</a>
+      <a href="#">relative</a>
+      <a href="#">absolute</a>
+      <a href="#">fixed</a>
+      <a href="#">sticky</a>
+      <a href="#">z-index</a>
+    </nav>
+  </header>
+
+  <section class="position-demo">
+    <h2>Position</h2>
+    <div class="position-box">
+      <div class="relative-box">
+        <div class="absolute-box">absolute</div>
+        <span>relative</span>
+      </div>
+      <div class="relative-box circle">
+        <div class="absolute-box">absolute</div>
+        <span>relative</span>
+      </div>
+      <div class="relative-box">
+        <div class="absolute-box">absolute</div>
+        <span>relative</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section">
+    <h2>Information</h2>
+    <div class="info-boxes">
+      <div class="info-card">
+        <h3>Static</h3>
+        <p>Position default holati. Static bu holatda top, left, right, bottom, z-index ishlamaydi.</p>
+      </div>
+      <div class="info-card">
+        <h3>Relative</h3>
+        <img src="./images/ф1.jpg" alt="Relative Example" />
+      </div>
+      <div class="info-card">
+        <h3>Absolute</h3>
+        <img src="./images/ф2.jpg" alt="Absolute Example" />
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>top &nbsp; left &nbsp; right &nbsp; bottom</p>
+  </footer>
+
+</body>
+</html>
